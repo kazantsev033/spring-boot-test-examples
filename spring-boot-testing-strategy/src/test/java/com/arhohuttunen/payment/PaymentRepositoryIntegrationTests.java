@@ -21,7 +21,7 @@ import static org.junit.jupiter.api.Assertions.assertThrows;
 @DataJpaTest
 @AutoConfigureTestDatabase(replace = AutoConfigureTestDatabase.Replace.NONE)
 @TestPropertySource(properties = {
-        "spring.datasource.url=jdbc:tc:postgresql:13.6-alpine://payment"
+        "spring.datasource.url=jdbc:tc:postgresql:13.2-alpine://payment"
 })
 class PaymentRepositoryIntegrationTests {
     @Autowired
